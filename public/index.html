@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dil ke Alfaaz - A collection of original shayari by Monika in Hindi and English">
+    <title>Dil ke Alfaaz - The Voice of the Heart</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&family=Noto+Sans+Devanagari:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <a href="#home" class="logo-link" data-testid="link-home">
+                    <div class="logo">
+                        <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
+                        </svg>
+                        <span class="logo-text">Dil ke Alfaaz</span>
+                    </div>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="#home" class="nav-link active" data-page="home" data-testid="link-nav-home">Home</a>
+                    <a href="#collection" class="nav-link" data-page="collection" data-testid="link-nav-collection">Collection</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Dil ke Alfaaz</h1>
+                <p class="hero-subtitle">The Voice of the Heart</p>
+                <p class="hero-description">
+                    A collection of original shayari expressing emotions, thoughts, and stories in both Hindi and English.
+                    Each piece is crafted to touch the soul and resonate with the heart.
+                </p>
+                <a href="#collection" class="hero-button" data-testid="button-explore">
+                    Explore the Collection
+                </a>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about-container">
+                <h2 class="about-title">About the Collection</h2>
+                <p class="about-text">
+                    "Dil ke Alfaaz" features original poetry written by Monika, presented in both Hindi (Devanagari script) 
+                    and English. Each shayari is an independent creation, expressing the same emotions and themes through 
+                    the unique beauty of both languages. Tap or click on any card to flip between languages and experience 
+                    the poetry from different perspectives.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Collection Page -->
+    <div id="collection" class="page">
+        <section class="collection-header">
+            <div class="collection-container">
+                <h1 class="collection-title">Shayari Collection</h1>
+                <p class="collection-subtitle">
+                    Explore the complete collection of heartfelt poetry. Click on any card to flip between Hindi and English.
+                </p>
+            </div>
+        </section>
+
+        <section class="cards-section">
+            <div class="cards-container" id="cardsContainer">
+                <!-- Cards will be dynamically inserted here -->
+                <div class="loading">Loading shayari...</div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">
+                All poetry written by <span class="footer-author">Monika</span>
+            </p>
+            <p class="footer-copyright">
+                © 2024 Dil ke Alfaaz. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
