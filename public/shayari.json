@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+     "id": "1",
     "hindiTitle": "दिल की बात",
     "hindiText": "दिल की बात जुबां पर आने लगी,\nतुम्हारी याद सताने लगी।\nहर लम्हा तुम्हें ढूंढे ये नज़रें,\nतुम्हारी खुशबू हवाओं में आने लगी।",
     "englishTitle": "Kyon tum...",
@@ -9,6 +9,38 @@
   },
   {
     "id": "2",
+    "hindiTitle": "ग़लत है …",
+    "hindiText": "ग़लत है …किसी की बातों को सुनकर अनसुना कर देना,\nग़लत है… किसी की भूलि हूँई अनचाही यादों को कुरेदना,\nग़लत है…किसी के ख़्वाबों को कुचल देना,\nग़लत है…किसी की मुस्कुराहट को छिन लेना,\nग़लत है…किसी के आँखों में दर्द भरें आँसू लाना,\nऔर ग़लत है…किसी को माफ़ी माँग ने का एक भी मौक़ा ना देना।।",
+    "englishTitle": "Moonlit Night",
+    "englishText": "In the moonlit night, I remembered you,\nMy heart found no solace.\nI asked the stars about you,\nThey just smiled and evaded.",
+    "date": "March 25, 2024"
+  },
+  {
+    "id": "3",
+    "hindiTitle": "इंतज़ार",
+    "hindiText": "इंतज़ार की घड़ियाँ यूं ही गुज़रती रहीं,\nतेरी राहें तकती रहीं।\nहर आहट पर दिल धड़का,\nपर तू न आया, बस खामोशी रहीं।",
+    "englishTitle": "Waiting",
+    "englishText": "Unhi chalte chalte woh mila mange bina\nwohi jo dil ki baat bhaap leta kahe bina\nna kabhi chaha woh mila mange bina\nsochti thi ki mere dil ki baat sun lega woh kahe bina\nmagar woh thode hi that santa jo janta har secrets bole bina",
+    "date": "Dec 25, 2019"
+  },
+  {
+    "id": "4",
+    "hindiTitle": "दोस्त",
+    "hindiText": "जिंसें बार बार मिलने का मन करे ...वो दोस्त । \nजिंसें अपने दिल का हाल बयान करें... वो दोस्त । \nजिसे जीवन का तिनका तिनका मालूम... वो दोस्त । \nजिंसें दिल की आख़िरी ख्वाहिश पता... वो दोस्त । \nजो आपका mood आसानी से जाने...वो दोस्त ।\nजो आपकी space की मर्यादा रखे ...वो दोस्त । \nजिसे आप की choice का इल्म हो... वो दोस्त । \nजिंसें आप की ज़रूरत की हो समझ ....वो दोस्त । \nजो चार lines लिखने पे मजबूर करे... वो दोस्त । \nओर वहीं टूकार lines की दिल खोलकर तारीफ़ करे.... वो दोस्त । ",
+    "englishTitle": "Love",
+    "englishText": "Never thought what lies in love,\nNever thought falling in love would be so hard.\nWhen I met you, I knew what love is,\nNever thought living without you would be so hard.",
+    "date": "February 28, 2024"
+  }
+  {
+     "id": "5",
+    "hindiTitle": "यादें",
+    "hindiText": "यादें तो बेशुमार है, लेकिन याद तुम्हारी हैं । \nमिले तो बहुत हैं, लेकिन राह तुम्हारी हैं । \nख़याल तो सबका है, लेकिन फ़िक्र तुम्हारी है । \nवादे तो सभी निभाते हैं , लेकिन अब साथ तुम्हारा चाहतीं हूँ ॥",
+    "englishTitle": "Kyon tum...",
+    "englishText": "Kyon tum meri har dhadkan to samaz lete ho\nkyon tum meri har tammana ko hakikat banato ho\ntum hi bata do kya kuch lagti hu main tumhari...\nkyon tum meri kushi ko apana bana lete ho\nkyon tum meri muskurahat ko apane labo pe saja lete ho\ntum hi bata do kya kuch lagti hu main tumhari...\nagar ye sirf mera khayal hai to muze usi mein khoosh rahne do\n ab gum se gujarneki umar nahi rahi hamari....",
+    "date": "Dec 25, 2019"
+  },
+  {
+    "id": "6",
     "hindiTitle": "चाँदनी रात",
     "hindiText": "चाँदनी रात में तेरी याद आई,\nदिल को तसल्ली न आई।\nसितारों से पूछा तेरा पता,\nउन्होंने भी मुस्कुरा के टाल दिया।",
     "englishTitle": "Moonlit Night",
@@ -16,17 +48,17 @@
     "date": "March 10, 2024"
   },
   {
-    "id": "3",
-    "hindiTitle": "इंतज़ार",
-    "hindiText": "इंतज़ार की घड़ियाँ यूं ही गुज़रती रहीं,\nतेरी राहें तकती रहीं।\nहर आहट पर दिल धड़का,\nपर तू न आया, बस खामोशी रहीं।",
+    "id": "7",
+    "hindiTitle": "मन तो करता है ...",
+    "hindiText": "मन तो करता है बातें तो बहुत हो , मगर तुम ही बताओ क्या मैं कहूँ  ।\nमन तो करता है कभी तुम्हारी सुनूँ , मगर तुम ही बताओ क्या मैं सुनूँ  । \nमन तो करता है कभी आप बीती कहूँ , मगर तुम ही बताओ क्या मैं बोलूँ ।\nमन तो करता है कि किसी बात पर साथ हंसे , मगर तुम ही बताओ क्या मैं भी हंसू । \nमन तो करता है तुम्हारी राह देखूँ , मगर तुम ही बताओ क्या मैं तुम्हारे लिए रूकूँ ।",
     "englishTitle": "Waiting",
     "englishText": "The hours of waiting passed by,\nKeeping watch on your paths.\nWith every sound, my heart skipped,\nBut you didn't come, only silence remained.",
     "date": "March 5, 2024"
   },
   {
-    "id": "4",
-    "hindiTitle": "मोहब्बत",
-    "hindiText": "मोहब्बत में क्या रखा है ये सोचा न था,\nदिल लगाना इतना मुश्किल होगा सोचा न था।\nतू मिला तो जाना क्या है इश्क़,\nतेरे बिना जीना इतना मुश्किल होगा सोचा न था।",
+    "id": "8",
+    "hindiTitle": "तमन्ना",
+    "hindiText": "तमन्ना कहूँ या ख्वाहिश, होती तो सबकी है… मेरी भी है ।\nतिनकें सी छोटी या आसमान से बड़ी, होती तो सबकी है… मेरी भी है । कुछ ज़ाहिर कुछ अनकही , होती तो सबकी है… मेरी भी है ।\nकुछ अपनों के लिए कुछ अपने लिए , होती तो सबकी है… मेरी भी है ।\nएकाध छोटी सी कुछ दिली तमन्ना, होती तो सबकी है… मेरी भी है। इस दिवाली आप की वहीं तमन्ना पूरी हो, यहीं कामना … मेरी भी है ।\n॥ शुभ दिपावली ॥",
     "englishTitle": "Love",
     "englishText": "Never thought what lies in love,\nNever thought falling in love would be so hard.\nWhen I met you, I knew what love is,\nNever thought living without you would be so hard.",
     "date": "February 28, 2024"
