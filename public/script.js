@@ -72,7 +72,7 @@ async function loadShayari() {
     const container = document.getElementById('cardsContainer');
     
     try {
-        const response = await fetch('/shayari.json');
+        const response = await fetch('./shayari.json');
         if (!response.ok) {
             throw new Error('Failed to load shayari');
         }
