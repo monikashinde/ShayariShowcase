@@ -105,12 +105,12 @@ function createShayariCard(shayari) {
             <!-- Hindi Side -->
             <div class="card-face card-front">
                 <div class="card-content">
-                    <h3 class="card-title hindi" data-testid="text-hindi-title-${shayari.id}">
+                    <h3 class="card-title.hindi" data-testid="text-hindi-title-${shayari.id}">
                         ${escapeHtml(shayari.hindiTitle)}
                     </h3>
                     
                     <div class="card-text-container">
-                        <p class="card-text hindi" data-testid="text-hindi-content-${shayari.id}">
+                        <p class="card-text.hindi" data-testid="text-hindi-content-${shayari.id}">
                             ${escapeHtml(shayari.hindiText)}
                         </p>
                     </div>
