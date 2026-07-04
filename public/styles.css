@@ -306,7 +306,7 @@ body {
 }
 
 .card-text-container {
-    flex: 1;
+    flex: 1 1 auto;
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
