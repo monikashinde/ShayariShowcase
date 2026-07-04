@@ -311,6 +311,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: left;
+    overflow-y: auto;
 }
 
 .card-text {
