@@ -308,7 +308,7 @@ body {
 
 .card-text-container {
     flex: 1;
-    overflow-y: auto;
+    overflow: auto;
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
