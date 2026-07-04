@@ -110,7 +110,7 @@ function createShayariCard(shayari) {
                     </h3>
                     
                     <div class="card-text-container">
-                        <p class="card-text hindi" data-testid="text-hindi-content-${shayari.id}">
+                        <p class="card-text" data-testid="text-hindi-content-${shayari.id}">
                             ${escapeHtml(shayari.hindiText)}
                         </p>
                     </div>
