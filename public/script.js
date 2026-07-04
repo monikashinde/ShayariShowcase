@@ -116,7 +116,7 @@ function createShayariCard(shayari) {
                     </div>
                     
                     <div class="card-footer">
-                        <p class="card-date" data-testid="text-date-hindi-${shayari.id}">
+                        <p class="card-date" data-testid="text-date-${shayari.id}">
                             ${escapeHtml(shayari.date)}
                         </p>
                         <p class="card-hint">Tap for English</p>
