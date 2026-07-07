@@ -276,6 +276,7 @@ body {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     transition: box-shadow 0.2s;
     overflow-y: auto;
+    pointer-events: none;
 }
 
 .card-face:hover {
@@ -285,7 +286,7 @@ body {
 .card-back {
     transform: rotateY(180deg);
     background: linear-gradient(to bottom right, var(--card), rgba(254, 254, 249, 0.95));
-    pointer-events: none;
+    pointer-events: auto;
 }
 
 .card-content {
