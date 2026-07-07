@@ -283,10 +283,18 @@ body {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-.card-front, .card-back {
+.card-back {
     transform: rotateY(180deg);
     background: linear-gradient(to bottom right, var(--card), rgba(254, 254, 249, 0.95));
-    pointer-events: auto;
+    pointer-events: none;
+}
+
+.card.flipped .card-front {
+  pointer-events: none;
+}
+
+.card.flipped .card-back {
+  pointer-events: auto;
 }
 
 .card-content {
