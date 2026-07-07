@@ -279,21 +279,16 @@ body {
     overflow-y: auto;
     cursor: pointer;
     touch-action: manipulation;
+    -webkit-transform-style: preserve-3d;
 }
 
 .card-face:hover {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
 }
 
 .card-back {
     transform: rotateY(180deg);
     background: linear-gradient(to bottom right, var(--card), rgba(254, 254, 249, 0.95));
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    cursor: pointer;
-    touch-action: manipulation;
 }
 
 .card-content {
