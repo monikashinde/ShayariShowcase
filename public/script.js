@@ -101,7 +101,7 @@ function createShayariCard(shayari) {
     card.setAttribute('data-testid', `card-shayari-${shayari.id}`);
     
     card.innerHTML = `
-        <div class="card-inner">
+        <div class="card-inner onclick="">
             <!-- Hindi Side -->
             <div class="card-face card-front">
                 <div class="card-content">
