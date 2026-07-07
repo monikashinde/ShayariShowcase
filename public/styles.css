@@ -289,11 +289,11 @@ body {
     pointer-events: none;
 }
 
-.card-face.flipped .card-front {
+.flipped .card-front {
   pointer-events: none;
 }
 
-.card-face.flipped .card-back {
+.flipped .card-back {
   pointer-events: auto;
 }
 
