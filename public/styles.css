@@ -286,20 +286,7 @@ body {
 .card-back {
     transform: rotateY(180deg);
     background: linear-gradient(to bottom right, var(--card), rgba(254, 254, 249, 0.95));
-    pointer-events: none;
     backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-}
-
-.shayari-card.flipped .card-front {
-    pointer-events: none;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-}
-
-.shayari-card.flipped .card-back {
-    pointer-events: auto;
-     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
 
