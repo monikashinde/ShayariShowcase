@@ -299,6 +299,8 @@ body {
 
 .shayari-card.flipped .card-back {
     pointer-events: auto;
+     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .card-content {
