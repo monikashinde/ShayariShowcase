@@ -290,7 +290,6 @@ body {
 .card-back {
     transform: rotateY(180deg);
     background: linear-gradient(to bottom right, var(--card), rgba(254, 254, 249, 0.95));
-    cursor: pointer;
 }
 
 .card-content {
