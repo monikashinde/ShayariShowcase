@@ -289,6 +289,9 @@ body {
 .card-back {
     transform: rotateY(180deg);
     background: linear-gradient(to bottom right, var(--card), rgba(254, 254, 249, 0.95));
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* Required prefix so iOS hides the face when turned */
+    -webkit-transform-style: preserve-3d; /* Keeps pointer/touch events alive in iOS Safari */
 }
 
 .card-content {
