@@ -276,6 +276,7 @@ body {
     transition: box-shadow 0.2s;
     overflow-y: auto;
     cursor: pointer;
+    touch-action: manipulation;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden; /* Required prefix so iOS hides the face when turned */
     -webkit-transform-style: preserve-3d; /* Keeps pointer/touch events alive in iOS Safari */
