@@ -259,7 +259,6 @@ body {
     transition: transform 0.6s ease-in-out;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
-    pointer-events: none;
 }
 
 .shayari-card.flipped .card-inner {
