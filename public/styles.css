@@ -281,6 +281,7 @@ body {
     -webkit-backface-visibility: hidden; /* Required prefix so iOS hides the face when turned */
     -webkit-transform-style: preserve-3d; /* Keeps pointer/touch events alive in iOS Safari */
     transform: rotateX(0deg); 
+    pointer-events: none;
 }
 
 .card-face:hover {
